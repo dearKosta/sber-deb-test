@@ -1,0 +1,15 @@
+Source: helloworld
+Section: utils
+Priority: optional
+Maintainer:  Konstantin Puzakov<kpuzakov@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+Rules-Requires-Root: no
+
+Package: helloworld
+Architecture: amd64
+Depends: vim, ${misc:Depends},${shlibs:Depends}
+#Depends: vim, {shlibs:Depends}, ${misc:Depends}
+Description: Simple test package
+ An example debian package that says "Hello World"

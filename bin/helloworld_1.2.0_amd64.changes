@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 03 Jun 2023 16:57:57 +0100
+Source: helloworld
+Binary: helloworld helloworld-dbgsym
+Architecture: source amd64
+Version: 1.2.0
+Distribution: unstable
+Urgency: low
+Maintainer: Konstantin Puzakov<kpuzakov@gmail.com>
+Changed-By: Konstantin Puzakov <kpuzakov@gmail.com>
+Description:
+ helloworld - Simple test package
+Closes: 000002
+Changes:
+ helloworld (1.2.0) unstable; urgency=low
+ .
+   [ Konstantin Puzakov ]
+   * helloworld.c: Write hello to standard output. (Closes: #000002)
+Checksums-Sha1:
+ 02079421f8a8a7fd931fbdcff050f300f9e9e90b 584 helloworld_1.2.0.dsc
+ 14b616366212a98607ab4abca9e483d0134d2abb 2404 helloworld_1.2.0.tar.xz
+ 4105ef2fea5b220f422075a22014b04a4fbb31e5 3056 helloworld-dbgsym_1.2.0_amd64.deb
+ ea95493b37d0d39980b5d17fe6997066f05c7608 5303 helloworld_1.2.0_amd64.buildinfo
+ 170bf420bd09e64e8d6f937e2f3c0f6f77bd1654 3968 helloworld_1.2.0_amd64.deb
+Checksums-Sha256:
+ a7da7ec78320a4ee935dc374591ad4af01cb2751ba99e7a31f2b64011b3b08ff 584 helloworld_1.2.0.dsc
+ 79e9408c7dc46dd391895608761992125d964a7c060eee616bbe450b982ba670 2404 helloworld_1.2.0.tar.xz
+ c2143760d6ebb9116f79c9828997f93d753f3252f620de4c750861269146ba4f 3056 helloworld-dbgsym_1.2.0_amd64.deb
+ 0b35572932f3f4d93cb01cfd633ff25f4971472b921094faf2d3c9b0056ed1e3 5303 helloworld_1.2.0_amd64.buildinfo
+ 9ae9b20380121bf8138a2b1889131a2b6a9b2b2c1b891fda2f1ee31f06827410 3968 helloworld_1.2.0_amd64.deb
+Files:
+ 83323848df68dae3230d98a68af95f3b 584 utils optional helloworld_1.2.0.dsc
+ 5a857f98118e47980334f7c15c9e1f74 2404 utils optional helloworld_1.2.0.tar.xz
+ e7baf8192268e676fab43c014c8ebbdf 3056 debug optional helloworld-dbgsym_1.2.0_amd64.deb
+ b39ba2b0fde300a4c915d4c2d4a30e70 5303 utils optional helloworld_1.2.0_amd64.buildinfo
+ 946647c0b9ff85b1660d8df7fd83cb91 3968 utils optional helloworld_1.2.0_amd64.deb
